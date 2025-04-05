@@ -1,0 +1,5735 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4ea2eb4f-efb9-40af-93f0-42fb5eb16779")
+	(paper "A4")
+	(lib_symbols
+		(symbol "4xxx:40106"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "40106"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Hex Schmitt trigger inverter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP?14*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "40106_1_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "40106_2_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "40106_3_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "40106_4_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "40106_5_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "40106_6_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "40106_7_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "40106_7_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "4xxx:HEF4093B"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HEF4093B"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NAND2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HEF4093B_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HEF4093B_1_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HEF4093B_1_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HEF4093B_2_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HEF4093B_2_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HEF4093B_2_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HEF4093B_3_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HEF4093B_3_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HEF4093B_3_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HEF4093B_4_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HEF4093B_4_1"
+				(arc
+					(start 0 3.81)
+					(mid 3.7934 0)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HEF4093B_4_2"
+				(arc
+					(start -3.81 3.81)
+					(mid -2.589 0)
+					(end -3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -0.635 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy -0.635 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 3.81 0)
+					(mid 2.1855 -2.584)
+					(end -0.6096 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.6096 3.81)
+					(mid 2.1928 2.5924)
+					(end 3.81 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
+						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
+						(xy -0.635 -3.81)
+					)
+					(stroke
+						(width -25.4)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -7.62 2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -7.62 -2.54 0)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HEF4093B_5_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HEF4093B_5_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 53.34 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17f07f68-f545-469f-b421-766da4129035")
+	)
+	(junction
+		(at 114.3 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c0e7eec-39a7-428f-b2fe-aa0583e4dd41")
+	)
+	(junction
+		(at 119.38 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38691a04-6e39-4617-9bb0-2c806701f91c")
+	)
+	(junction
+		(at 114.3 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40db4330-b360-4a69-b1d3-8e8808738339")
+	)
+	(junction
+		(at 114.3 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64ecb642-c167-4d58-bffc-094aee08c170")
+	)
+	(junction
+		(at 119.38 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91f5b73b-9bed-4879-99d3-828208e63840")
+	)
+	(junction
+		(at 102.87 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9230949a-7ce2-4c80-9a69-e67fadffdd82")
+	)
+	(junction
+		(at 114.3 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9af07145-3bac-44c0-b78d-bf446dc88a69")
+	)
+	(junction
+		(at 53.34 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac1fca3a-32dc-4043-ab24-3e6ad53efdeb")
+	)
+	(junction
+		(at 104.14 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b89b5b0a-e3bd-46bd-b56c-f91d002e786f")
+	)
+	(junction
+		(at 102.87 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c69d0000-8b66-470f-ad24-eb1f9ac17622")
+	)
+	(junction
+		(at 101.6 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea19a714-170a-4896-a663-a9ae472b0c25")
+	)
+	(wire
+		(pts
+			(xy 138.43 46.99) (xy 138.43 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015c25de-e41d-41ac-b592-ec9cdea24e86")
+	)
+	(wire
+		(pts
+			(xy 189.23 115.57) (xy 182.88 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07117c29-2a26-41d0-b3b0-59d94e45dbb5")
+	)
+	(wire
+		(pts
+			(xy 186.69 151.13) (xy 189.23 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a485567-e0e6-4718-bded-ae1caccdae57")
+	)
+	(wire
+		(pts
+			(xy 119.38 46.99) (xy 138.43 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c428767-4869-4eac-8d85-213b4188c47f")
+	)
+	(wire
+		(pts
+			(xy 119.38 97.79) (xy 104.14 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15143027-47bb-4a32-adcc-0a6bab536249")
+	)
+	(wire
+		(pts
+			(xy 128.27 101.6) (xy 119.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d15b6a-05d2-4cc6-9a31-a4e279fb7b08")
+	)
+	(wire
+		(pts
+			(xy 121.92 45.72) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c19b448-9c2e-4197-8c81-0c9adc613550")
+	)
+	(wire
+		(pts
+			(xy 35.56 101.6) (xy 38.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa0d9bb-e665-4fc2-99b3-cbdb381ced6f")
+	)
+	(wire
+		(pts
+			(xy 76.2 115.57) (xy 76.2 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ffecdaa-38de-4492-ac8b-6290051f8c75")
+	)
+	(wire
+		(pts
+			(xy 163.83 115.57) (xy 167.64 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333314e5-cf67-4e13-97fe-a2c7f915cd49")
+	)
+	(wire
+		(pts
+			(xy 35.56 99.06) (xy 53.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3913dabe-c3f5-472a-8741-acba97b904b0")
+	)
+	(wire
+		(pts
+			(xy 101.6 151.13) (xy 101.6 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8d1c78-1d58-4cb4-b1b1-79ff5a7e9ad2")
+	)
+	(wire
+		(pts
+			(xy 76.2 138.43) (xy 81.28 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1bcc1e-1181-4d75-b905-66e3eadb9ee8")
+	)
+	(wire
+		(pts
+			(xy 128.27 151.13) (xy 101.6 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4020425f-235f-4573-8e53-0099b0dc4ae3")
+	)
+	(wire
+		(pts
+			(xy 83.82 46.99) (xy 102.87 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4673ae4a-7bb8-4314-bc5d-54182b0ff5f0")
+	)
+	(wire
+		(pts
+			(xy 143.51 101.6) (xy 148.59 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e7d3c1-51f0-46a0-bbce-1b64d4341cdb")
+	)
+	(wire
+		(pts
+			(xy 119.38 46.99) (xy 119.38 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a9beda-62af-484f-926d-ad2db65f4b57")
+	)
+	(wire
+		(pts
+			(xy 105.41 105.41) (xy 105.41 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc7e462-e745-42a8-970e-1f45993b3717")
+	)
+	(wire
+		(pts
+			(xy 104.14 97.79) (xy 104.14 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5e5b67-fc28-487e-9c46-8919a2e65956")
+	)
+	(wire
+		(pts
+			(xy 38.1 101.6) (xy 38.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a5288b-763b-4cfe-9910-2f853f89aee3")
+	)
+	(wire
+		(pts
+			(xy 163.83 101.6) (xy 167.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d56a47-81c3-43f4-b281-6b8050537ba3")
+	)
+	(wire
+		(pts
+			(xy 83.82 49.53) (xy 93.98 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583a6621-e290-44a2-a64e-60bd93d79dd4")
+	)
+	(wire
+		(pts
+			(xy 77.47 104.14) (xy 80.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6424830e-2bea-40fd-a3ab-dfd05d3f7827")
+	)
+	(wire
+		(pts
+			(xy 114.3 44.45) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66fdf267-167e-4975-bf30-aa3de1e8af4e")
+	)
+	(wire
+		(pts
+			(xy 102.87 73.66) (xy 102.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a1e892-9038-4b4e-8fab-4985cd72bcfd")
+	)
+	(wire
+		(pts
+			(xy 105.41 139.7) (xy 105.41 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9dfc26-eb2a-4976-9d41-cd5015bb2271")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.93) (xy 119.38 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc7dee3-35be-4378-8bd8-88224561020b")
+	)
+	(wire
+		(pts
+			(xy 105.41 138.43) (xy 106.68 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0121ba-59e1-4b07-be92-0a028484b639")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7115f1d7-4c6f-4a6b-af4a-92e95db820e2")
+	)
+	(wire
+		(pts
+			(xy 189.23 151.13) (xy 189.23 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a0df51-77ce-4f08-b2c2-9e51c288d071")
+	)
+	(wire
+		(pts
+			(xy 143.51 115.57) (xy 148.59 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e160cf-cf26-4de6-910a-1e427a99673b")
+	)
+	(wire
+		(pts
+			(xy 165.1 129.54) (xy 171.45 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc8e75c-80e8-4aff-a735-4716b263306b")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.93) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eab085d-daba-4acd-855a-d407a889226a")
+	)
+	(wire
+		(pts
+			(xy 182.88 101.6) (xy 189.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8571c57d-8835-4c85-8bd0-29df17aee2f1")
+	)
+	(wire
+		(pts
+			(xy 138.43 74.93) (xy 138.43 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b45aa8-5118-48ca-a13b-1d9e171d4956")
+	)
+	(wire
+		(pts
+			(xy 53.34 123.19) (xy 53.34 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6444c5-8a50-4655-8ce2-43f8e2a68ee0")
+	)
+	(wire
+		(pts
+			(xy 189.23 129.54) (xy 186.69 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d22ca4-dfbe-4b81-9c3a-679228eaf08b")
+	)
+	(wire
+		(pts
+			(xy 95.25 101.6) (xy 104.14 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b6bceb-f0ba-4921-aee3-686b64b24ca9")
+	)
+	(wire
+		(pts
+			(xy 101.6 135.89) (xy 106.68 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9982950a-0d2e-49ba-b453-be34fd021fe8")
+	)
+	(wire
+		(pts
+			(xy 119.38 73.66) (xy 119.38 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c60afa1-1002-41a9-bf31-851c14225015")
+	)
+	(wire
+		(pts
+			(xy 143.51 129.54) (xy 149.86 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de9ee74-76ab-4419-bee2-c14dce987974")
+	)
+	(wire
+		(pts
+			(xy 105.41 104.14) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e15c0bb-364f-4d86-a0e9-00c39b682d49")
+	)
+	(wire
+		(pts
+			(xy 102.87 74.93) (xy 114.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc695ab-aa22-4f55-9b8c-15f234173d52")
+	)
+	(wire
+		(pts
+			(xy 96.52 135.89) (xy 101.6 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a2f34c-afe1-4e8b-9625-dbda211cc085")
+	)
+	(wire
+		(pts
+			(xy 53.34 99.06) (xy 53.34 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab16c45a-d7f6-4cfa-a0c2-5230d7bf60ae")
+	)
+	(wire
+		(pts
+			(xy 93.98 49.53) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abfa1b88-464e-4d7a-a7d8-216c3ba019e4")
+	)
+	(wire
+		(pts
+			(xy 143.51 151.13) (xy 149.86 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af699c67-4ab1-4896-889c-7478b6038430")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 114.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b036f6ef-b6e6-4eb1-8e6c-033be5c94e56")
+	)
+	(wire
+		(pts
+			(xy 53.34 133.35) (xy 81.28 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b349d50f-7584-4812-8e6c-1ee8bfce7968")
+	)
+	(wire
+		(pts
+			(xy 128.27 115.57) (xy 76.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b493ec1a-0f94-4a34-b293-0a2c739c9e43")
+	)
+	(wire
+		(pts
+			(xy 128.27 129.54) (xy 77.47 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4fe858d-17a5-46a3-832f-3a1e90581204")
+	)
+	(wire
+		(pts
+			(xy 189.23 101.6) (xy 189.23 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdaba324-9333-4967-aaf5-7219868935a6")
+	)
+	(wire
+		(pts
+			(xy 121.92 44.45) (xy 121.92 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f615e5-5242-426f-8eae-287040b8f873")
+	)
+	(wire
+		(pts
+			(xy 114.3 45.72) (xy 114.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd5c7b4e-47a9-4b3c-9e49-c0ede404933a")
+	)
+	(wire
+		(pts
+			(xy 104.14 101.6) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf24a691-17f9-49a7-b334-f5b793bb7723")
+	)
+	(wire
+		(pts
+			(xy 50.8 107.95) (xy 53.34 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffd7f8c-4ed2-42ce-8b7a-d533290bd74c")
+	)
+	(wire
+		(pts
+			(xy 165.1 151.13) (xy 171.45 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ab45a6-d997-4d3c-8008-9808a98ed5b2")
+	)
+	(wire
+		(pts
+			(xy 102.87 46.99) (xy 102.87 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ea2979-4360-4107-b303-9c5c76498382")
+	)
+	(wire
+		(pts
+			(xy 114.3 46.99) (xy 119.38 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b61948-63da-4dbf-a16d-b7446ef85912")
+	)
+	(wire
+		(pts
+			(xy 53.34 99.06) (xy 80.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6e6c83-2ca0-407d-8916-b2cfe9d19834")
+	)
+	(wire
+		(pts
+			(xy 93.98 74.93) (xy 102.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de93032f-1e2e-4f28-8531-f2864860082b")
+	)
+	(wire
+		(pts
+			(xy 106.68 77.47) (xy 106.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1faaadd-2735-4858-b781-33f37e9c3ced")
+	)
+	(wire
+		(pts
+			(xy 53.34 107.95) (xy 55.88 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9f59ad-8d95-4b5f-8106-199314266146")
+	)
+	(wire
+		(pts
+			(xy 102.87 46.99) (xy 114.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33aa608-de81-4d2e-b68d-8cc12ac023e3")
+	)
+	(wire
+		(pts
+			(xy 119.38 101.6) (xy 119.38 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ac138b-6483-4720-83f2-b90bb5027835")
+	)
+	(wire
+		(pts
+			(xy 77.47 129.54) (xy 77.47 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6aac8f6-4e7d-4c91-ab72-b458fb6d70ec")
+	)
+	(wire
+		(pts
+			(xy 119.38 74.93) (xy 138.43 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c88162-a20f-4635-bdc9-cf4c33850147")
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 111.76 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06a91815-da36-42b5-bfac-b7774ecfa19f")
+		(property "Reference" "J3"
+			(at 114.3 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 114.3 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+			(at 111.76 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 111.76 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00007890-7839-4320-b8c8-31585f495430")
+		)
+		(pin "2"
+			(uuid "b0c88bc0-f9e5-480c-9fd1-6371462e2576")
+		)
+		(instances
+			(project "clockNoSuerpuesto"
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:HEF4093B")
+		(at 53.34 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "089b91d2-0069-43fc-aff9-616232197768")
+		(property "Reference" "U2"
+			(at 58.42 114.2916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HEF4093B"
+			(at 58.42 116.8316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 53.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
+			(at 53.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
+			(at 53.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "de62cac0-6ab4-4309-9b45-09d42133f85d")
+		)
+		(pin "3"
+			(uuid "7ce37181-a165-4ce0-991c-51b403fe42b0")
+		)
+		(pin "8"
+			(uuid "5a1a66a9-bdce-4383-a5cd-fda1406c45f1")
+		)
+		(pin "9"
+			(uuid "2c81c65c-c264-46f8-a426-a559657f4314")
+		)
+		(pin "10"
+			(uuid "70c6e6fc-fa4c-4560-bc87-53e6c6bd806c")
+		)
+		(pin "5"
+			(uuid "4a51a9fe-949d-464c-a8d1-953aeb044c90")
+		)
+		(pin "11"
+			(uuid "9e75d035-b3e1-4c0e-9cf2-8da2a60b3fcd")
+		)
+		(pin "2"
+			(uuid "9bafc4b2-b1c9-4ea9-855b-ac8aab4b4e6f")
+		)
+		(pin "6"
+			(uuid "32039ad5-48f2-4afc-8f1d-d746194d4e03")
+		)
+		(pin "4"
+			(uuid "2e8ea48e-e438-4a4e-be2d-336b03ff1f69")
+		)
+		(pin "13"
+			(uuid "b70ee468-671a-4a5f-963d-3bf266471521")
+		)
+		(pin "12"
+			(uuid "4b5c6593-e105-46d9-9edd-600d530aae2d")
+		)
+		(pin "1"
+			(uuid "584201a0-b7a5-401d-a856-b8a29eadd45a")
+		)
+		(pin "14"
+			(uuid "6680345b-e4c3-4a32-8285-e865231eefd2")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 135.89 129.54 180)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cf3d39b-8837-471a-b607-6b8ed8b2e138")
+		(property "Reference" "U3"
+			(at 135.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 135.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 135.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 135.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt trigger inverter"
+			(at 135.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "28bf24b2-d75a-41b2-9646-55d8f2c55808")
+		)
+		(pin "14"
+			(uuid "c867cfe5-99a4-419a-bf83-3a17f50ca846")
+		)
+		(pin "10"
+			(uuid "5a4b89b2-6c26-48a2-ba63-61923e95b8de")
+		)
+		(pin "5"
+			(uuid "05e9b896-f2af-42be-aaea-06e3d0bc5a50")
+		)
+		(pin "3"
+			(uuid "24b57fa4-b604-47f8-a6c2-4d89586105e6")
+		)
+		(pin "2"
+			(uuid "dec277a0-b7af-4675-b502-b44be881188f")
+		)
+		(pin "13"
+			(uuid "731e2eb0-95a9-4707-9714-e61c840c9645")
+		)
+		(pin "8"
+			(uuid "9a9f4678-caa3-4b36-8e07-32b312270fe6")
+		)
+		(pin "11"
+			(uuid "19a15f85-9595-4226-942d-9a9868adbd15")
+		)
+		(pin "7"
+			(uuid "433e35c8-eb07-457a-ac43-f79b655b6e9e")
+		)
+		(pin "1"
+			(uuid "877f9941-36fd-452d-bb18-3f69d45b893e")
+		)
+		(pin "6"
+			(uuid "6947cecd-e0fa-4901-ac1b-6ee6133d4628")
+		)
+		(pin "9"
+			(uuid "c396d6d9-c039-4ff6-ad12-e3db6792fd9f")
+		)
+		(pin "4"
+			(uuid "988253d3-1f0b-426c-9568-141391ba6f98")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U3")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 179.07 129.54 180)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17a6988c-eb7e-44d5-aee1-d2cac9d4a4a7")
+		(property "Reference" "U3"
+			(at 179.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 179.07 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 179.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 179.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt trigger inverter"
+			(at 179.07 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "28bf24b2-d75a-41b2-9646-55d8f2c55808")
+		)
+		(pin "14"
+			(uuid "c867cfe5-99a4-419a-bf83-3a17f50ca846")
+		)
+		(pin "10"
+			(uuid "5a4b89b2-6c26-48a2-ba63-61923e95b8de")
+		)
+		(pin "5"
+			(uuid "05e9b896-f2af-42be-aaea-06e3d0bc5a50")
+		)
+		(pin "3"
+			(uuid "24b57fa4-b604-47f8-a6c2-4d89586105e6")
+		)
+		(pin "2"
+			(uuid "dec277a0-b7af-4675-b502-b44be881188f")
+		)
+		(pin "13"
+			(uuid "731e2eb0-95a9-4707-9714-e61c840c9645")
+		)
+		(pin "8"
+			(uuid "9a9f4678-caa3-4b36-8e07-32b312270fe6")
+		)
+		(pin "11"
+			(uuid "19a15f85-9595-4226-942d-9a9868adbd15")
+		)
+		(pin "7"
+			(uuid "433e35c8-eb07-457a-ac43-f79b655b6e9e")
+		)
+		(pin "1"
+			(uuid "877f9941-36fd-452d-bb18-3f69d45b893e")
+		)
+		(pin "6"
+			(uuid "6947cecd-e0fa-4901-ac1b-6ee6133d4628")
+		)
+		(pin "9"
+			(uuid "c396d6d9-c039-4ff6-ad12-e3db6792fd9f")
+		)
+		(pin "4"
+			(uuid "988253d3-1f0b-426c-9568-141391ba6f98")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19ca6f1f-38ef-4eec-aea3-357787ba872c")
+		(property "Reference" "#PWR04"
+			(at 105.41 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a4572a1-d8e0-4cc8-9528-c3806fd846ed")
+		)
+		(instances
+			(project "clockNoSuerpuesto"
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 157.48 129.54 180)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26af16e0-b0e1-447f-a981-9645370c4ffb")
+		(property "Reference" "U3"
+			(at 157.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 157.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 157.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 157.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt trigger inverter"
+			(at 157.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "28bf24b2-d75a-41b2-9646-55d8f2c55808")
+		)
+		(pin "14"
+			(uuid "c867cfe5-99a4-419a-bf83-3a17f50ca846")
+		)
+		(pin "10"
+			(uuid "5a4b89b2-6c26-48a2-ba63-61923e95b8de")
+		)
+		(pin "5"
+			(uuid "05e9b896-f2af-42be-aaea-06e3d0bc5a50")
+		)
+		(pin "3"
+			(uuid "24b57fa4-b604-47f8-a6c2-4d89586105e6")
+		)
+		(pin "2"
+			(uuid "dec277a0-b7af-4675-b502-b44be881188f")
+		)
+		(pin "13"
+			(uuid "731e2eb0-95a9-4707-9714-e61c840c9645")
+		)
+		(pin "8"
+			(uuid "9a9f4678-caa3-4b36-8e07-32b312270fe6")
+		)
+		(pin "11"
+			(uuid "19a15f85-9595-4226-942d-9a9868adbd15")
+		)
+		(pin "7"
+			(uuid "433e35c8-eb07-457a-ac43-f79b655b6e9e")
+		)
+		(pin "1"
+			(uuid "877f9941-36fd-452d-bb18-3f69d45b893e")
+		)
+		(pin "6"
+			(uuid "6947cecd-e0fa-4901-ac1b-6ee6133d4628")
+		)
+		(pin "9"
+			(uuid "c396d6d9-c039-4ff6-ad12-e3db6792fd9f")
+		)
+		(pin "4"
+			(uuid "988253d3-1f0b-426c-9568-141391ba6f98")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U3")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 138.43 60.96 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2800faa4-d7ef-4372-af54-f0fd612a7fc4")
+		(property "Reference" "U1"
+			(at 144.78 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "40106"
+			(at 144.78 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt trigger inverter"
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f529e0e1-d8fb-4444-b473-25abf8329a8b")
+		)
+		(pin "11"
+			(uuid "9c5619d0-6b29-4e74-9c6d-1f6f0d643565")
+		)
+		(pin "1"
+			(uuid "6e30b132-a44f-42ca-b005-efbad69227d5")
+		)
+		(pin "2"
+			(uuid "b308934e-b680-414d-93c6-58a525b6a3ec")
+		)
+		(pin "12"
+			(uuid "4079b3ad-b0ea-4249-b3fc-458f9333d9ef")
+		)
+		(pin "8"
+			(uuid "8fc02c7c-5023-499e-ae9d-fe86c6503253")
+		)
+		(pin "10"
+			(uuid "c504ddb2-c0c7-4d6f-b739-5c4afb392272")
+		)
+		(pin "6"
+			(uuid "22dde9c2-b3ad-4dd4-8738-fba2e1f0b995")
+		)
+		(pin "9"
+			(uuid "50079ede-a059-4ef9-8730-a56aae3e6526")
+		)
+		(pin "7"
+			(uuid "ff7c58a8-e711-4bb8-a5b4-5f7c83324f71")
+		)
+		(pin "3"
+			(uuid "5c817073-d2da-4956-93e2-bfcdf46c47b7")
+		)
+		(pin "13"
+			(uuid "b894d9ad-ad01-4661-a0e0-b6a4f18be7b3")
+		)
+		(pin "14"
+			(uuid "03a34302-9e30-4545-8d9c-e4d6cab897f8")
+		)
+		(pin "4"
+			(uuid "455c45b2-0662-4764-b1ae-4e13cf09cee1")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U1")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:HEF4093B")
+		(at 64.77 67.31 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2941d71c-8a29-4e30-95e9-dbf9da100d9d")
+		(property "Reference" "U2"
+			(at 64.7617 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HEF4093B"
+			(at 64.7617 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 64.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
+			(at 64.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
+			(at 64.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "de62cac0-6ab4-4309-9b45-09d42133f85d")
+		)
+		(pin "3"
+			(uuid "7ce37181-a165-4ce0-991c-51b403fe42b0")
+		)
+		(pin "8"
+			(uuid "5a1a66a9-bdce-4383-a5cd-fda1406c45f1")
+		)
+		(pin "9"
+			(uuid "2c81c65c-c264-46f8-a426-a559657f4314")
+		)
+		(pin "10"
+			(uuid "70c6e6fc-fa4c-4560-bc87-53e6c6bd806c")
+		)
+		(pin "5"
+			(uuid "4a51a9fe-949d-464c-a8d1-953aeb044c90")
+		)
+		(pin "11"
+			(uuid "9e75d035-b3e1-4c0e-9cf2-8da2a60b3fcd")
+		)
+		(pin "2"
+			(uuid "9bafc4b2-b1c9-4ea9-855b-ac8aab4b4e6f")
+		)
+		(pin "6"
+			(uuid "32039ad5-48f2-4afc-8f1d-d746194d4e03")
+		)
+		(pin "4"
+			(uuid "2e8ea48e-e438-4a4e-be2d-336b03ff1f69")
+		)
+		(pin "13"
+			(uuid "b70ee468-671a-4a5f-963d-3bf266471521")
+		)
+		(pin "12"
+			(uuid "4b5c6593-e105-46d9-9edd-600d530aae2d")
+		)
+		(pin "1"
+			(uuid "584201a0-b7a5-401d-a856-b8a29eadd45a")
+		)
+		(pin "14"
+			(uuid "6680345b-e4c3-4a32-8285-e865231eefd2")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:HEF4093B")
+		(at 87.63 101.6 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b84d712-d83b-46f5-b974-c1a1e3888ffb")
+		(property "Reference" "U2"
+			(at 87.6217 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HEF4093B"
+			(at 87.6217 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 87.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
+			(at 87.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
+			(at 87.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "de62cac0-6ab4-4309-9b45-09d42133f85d")
+		)
+		(pin "3"
+			(uuid "7ce37181-a165-4ce0-991c-51b403fe42b0")
+		)
+		(pin "8"
+			(uuid "5a1a66a9-bdce-4383-a5cd-fda1406c45f1")
+		)
+		(pin "9"
+			(uuid "2c81c65c-c264-46f8-a426-a559657f4314")
+		)
+		(pin "10"
+			(uuid "70c6e6fc-fa4c-4560-bc87-53e6c6bd806c")
+		)
+		(pin "5"
+			(uuid "4a51a9fe-949d-464c-a8d1-953aeb044c90")
+		)
+		(pin "11"
+			(uuid "9e75d035-b3e1-4c0e-9cf2-8da2a60b3fcd")
+		)
+		(pin "2"
+			(uuid "9bafc4b2-b1c9-4ea9-855b-ac8aab4b4e6f")
+		)
+		(pin "6"
+			(uuid "32039ad5-48f2-4afc-8f1d-d746194d4e03")
+		)
+		(pin "4"
+			(uuid "2e8ea48e-e438-4a4e-be2d-336b03ff1f69")
+		)
+		(pin "13"
+			(uuid "b70ee468-671a-4a5f-963d-3bf266471521")
+		)
+		(pin "12"
+			(uuid "4b5c6593-e105-46d9-9edd-600d530aae2d")
+		)
+		(pin "1"
+			(uuid "584201a0-b7a5-401d-a856-b8a29eadd45a")
+		)
+		(pin "14"
+			(uuid "6680345b-e4c3-4a32-8285-e865231eefd2")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 114.3 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30b423a0-0f03-411f-af83-665673d04590")
+		(property "Reference" "#PWR02"
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 114.3 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "becbcdd6-8fe8-4ef5-93a7-2a9e7ca5ea69")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 157.48 151.13 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32ded5ca-31b9-4db1-b74d-8b12a42b1d88")
+		(property "Reference" "U3"
+			(at 157.48 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 157.48 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 157.48 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 157.48 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt trigger inverter"
+			(at 157.48 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "28bf24b2-d75a-41b2-9646-55d8f2c55808")
+		)
+		(pin "14"
+			(uuid "c867cfe5-99a4-419a-bf83-3a17f50ca846")
+		)
+		(pin "10"
+			(uuid "5a4b89b2-6c26-48a2-ba63-61923e95b8de")
+		)
+		(pin "5"
+			(uuid "05e9b896-f2af-42be-aaea-06e3d0bc5a50")
+		)
+		(pin "3"
+			(uuid "24b57fa4-b604-47f8-a6c2-4d89586105e6")
+		)
+		(pin "2"
+			(uuid "dec277a0-b7af-4675-b502-b44be881188f")
+		)
+		(pin "13"
+			(uuid "731e2eb0-95a9-4707-9714-e61c840c9645")
+		)
+		(pin "8"
+			(uuid "9a9f4678-caa3-4b36-8e07-32b312270fe6")
+		)
+		(pin "11"
+			(uuid "19a15f85-9595-4226-942d-9a9868adbd15")
+		)
+		(pin "7"
+			(uuid "433e35c8-eb07-457a-ac43-f79b655b6e9e")
+		)
+		(pin "1"
+			(uuid "877f9941-36fd-452d-bb18-3f69d45b893e")
+		)
+		(pin "6"
+			(uuid "6947cecd-e0fa-4901-ac1b-6ee6133d4628")
+		)
+		(pin "9"
+			(uuid "c396d6d9-c039-4ff6-ad12-e3db6792fd9f")
+		)
+		(pin "4"
+			(uuid "988253d3-1f0b-426c-9568-141391ba6f98")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 175.26 101.6 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41297f3e-0ef3-4d99-98cc-400385b15c28")
+		(property "Reference" "U1"
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 175.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt trigger inverter"
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f529e0e1-d8fb-4444-b473-25abf8329a8b")
+		)
+		(pin "11"
+			(uuid "9c5619d0-6b29-4e74-9c6d-1f6f0d643565")
+		)
+		(pin "1"
+			(uuid "6e30b132-a44f-42ca-b005-efbad69227d5")
+		)
+		(pin "2"
+			(uuid "b308934e-b680-414d-93c6-58a525b6a3ec")
+		)
+		(pin "12"
+			(uuid "4079b3ad-b0ea-4249-b3fc-458f9333d9ef")
+		)
+		(pin "8"
+			(uuid "8fc02c7c-5023-499e-ae9d-fe86c6503253")
+		)
+		(pin "10"
+			(uuid "c504ddb2-c0c7-4d6f-b739-5c4afb392272")
+		)
+		(pin "6"
+			(uuid "22dde9c2-b3ad-4dd4-8738-fba2e1f0b995")
+		)
+		(pin "9"
+			(uuid "50079ede-a059-4ef9-8730-a56aae3e6526")
+		)
+		(pin "7"
+			(uuid "ff7c58a8-e711-4bb8-a5b4-5f7c83324f71")
+		)
+		(pin "3"
+			(uuid "5c817073-d2da-4956-93e2-bfcdf46c47b7")
+		)
+		(pin "13"
+			(uuid "b894d9ad-ad01-4661-a0e0-b6a4f18be7b3")
+		)
+		(pin "14"
+			(uuid "03a34302-9e30-4545-8d9c-e4d6cab897f8")
+		)
+		(pin "4"
+			(uuid "455c45b2-0662-4764-b1ae-4e13cf09cee1")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "429e8d04-3331-4193-ba19-03320ab28020")
+		(property "Reference" "#PWR05"
+			(at 105.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7f96356-b8e5-442d-914e-a17e4fac2121")
+		)
+		(instances
+			(project "clockNoSuerpuesto"
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 106.68 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62cc1bff-d6b9-473f-97ad-eebbecb3a484")
+		(property "Reference" "#FLG02"
+			(at 106.68 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 106.68 82.8634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 106.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c7fa701-d0d5-4303-aa66-ef4b1c1a0572")
+		)
+		(instances
+			(project "clockNoSuerpuesto"
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e4bcdb6-2d06-41ee-857e-32bde23c6128")
+		(property "Reference" "#PWR03"
+			(at 38.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00eec8da-476b-495d-9997-34bdb0d11e56")
+		)
+		(instances
+			(project "clockNoSuerpuesto"
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 78.74 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79fd5cf6-5fa9-4780-bdb9-09ee5d21a024")
+		(property "Reference" "J4"
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 78.74 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+			(at 78.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 78.74 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5ab0324-a3b2-46fb-b547-433922a02bc8")
+		)
+		(pin "2"
+			(uuid "42fff596-3f69-4aa1-817b-7e580efa7f8d")
+		)
+		(instances
+			(project "clockNoSuerpuesto"
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81b51766-4063-4939-aa1e-42949e7451de")
+		(property "Reference" "#PWR01"
+			(at 114.3 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb8a2039-b928-4687-bf34-ddc3b4a7f8fe")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 135.89 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "998d8b81-fed8-4648-aa49-5c6cf780badb")
+		(property "Reference" "U1"
+			(at 135.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 135.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 135.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt trigger inverter"
+			(at 135.89 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f529e0e1-d8fb-4444-b473-25abf8329a8b")
+		)
+		(pin "11"
+			(uuid "9c5619d0-6b29-4e74-9c6d-1f6f0d643565")
+		)
+		(pin "1"
+			(uuid "6e30b132-a44f-42ca-b005-efbad69227d5")
+		)
+		(pin "2"
+			(uuid "b308934e-b680-414d-93c6-58a525b6a3ec")
+		)
+		(pin "12"
+			(uuid "4079b3ad-b0ea-4249-b3fc-458f9333d9ef")
+		)
+		(pin "8"
+			(uuid "8fc02c7c-5023-499e-ae9d-fe86c6503253")
+		)
+		(pin "10"
+			(uuid "c504ddb2-c0c7-4d6f-b739-5c4afb392272")
+		)
+		(pin "6"
+			(uuid "22dde9c2-b3ad-4dd4-8738-fba2e1f0b995")
+		)
+		(pin "9"
+			(uuid "50079ede-a059-4ef9-8730-a56aae3e6526")
+		)
+		(pin "7"
+			(uuid "ff7c58a8-e711-4bb8-a5b4-5f7c83324f71")
+		)
+		(pin "3"
+			(uuid "5c817073-d2da-4956-93e2-bfcdf46c47b7")
+		)
+		(pin "13"
+			(uuid "b894d9ad-ad01-4661-a0e0-b6a4f18be7b3")
+		)
+		(pin "14"
+			(uuid "03a34302-9e30-4545-8d9c-e4d6cab897f8")
+		)
+		(pin "4"
+			(uuid "455c45b2-0662-4764-b1ae-4e13cf09cee1")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 179.07 151.13 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2ad0f37-e707-4c64-a364-0e393d8c96d4")
+		(property "Reference" "U3"
+			(at 179.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 179.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 179.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 179.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt trigger inverter"
+			(at 179.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "28bf24b2-d75a-41b2-9646-55d8f2c55808")
+		)
+		(pin "14"
+			(uuid "c867cfe5-99a4-419a-bf83-3a17f50ca846")
+		)
+		(pin "10"
+			(uuid "5a4b89b2-6c26-48a2-ba63-61923e95b8de")
+		)
+		(pin "5"
+			(uuid "05e9b896-f2af-42be-aaea-06e3d0bc5a50")
+		)
+		(pin "3"
+			(uuid "24b57fa4-b604-47f8-a6c2-4d89586105e6")
+		)
+		(pin "2"
+			(uuid "dec277a0-b7af-4675-b502-b44be881188f")
+		)
+		(pin "13"
+			(uuid "731e2eb0-95a9-4707-9714-e61c840c9645")
+		)
+		(pin "8"
+			(uuid "9a9f4678-caa3-4b36-8e07-32b312270fe6")
+		)
+		(pin "11"
+			(uuid "19a15f85-9595-4226-942d-9a9868adbd15")
+		)
+		(pin "7"
+			(uuid "433e35c8-eb07-457a-ac43-f79b655b6e9e")
+		)
+		(pin "1"
+			(uuid "877f9941-36fd-452d-bb18-3f69d45b893e")
+		)
+		(pin "6"
+			(uuid "6947cecd-e0fa-4901-ac1b-6ee6133d4628")
+		)
+		(pin "9"
+			(uuid "c396d6d9-c039-4ff6-ad12-e3db6792fd9f")
+		)
+		(pin "4"
+			(uuid "988253d3-1f0b-426c-9568-141391ba6f98")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 156.21 101.6 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6a05f12-72cb-425f-ae68-b3013c0c731c")
+		(property "Reference" "U1"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 156.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 156.21 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 156.21 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt trigger inverter"
+			(at 156.21 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f529e0e1-d8fb-4444-b473-25abf8329a8b")
+		)
+		(pin "11"
+			(uuid "9c5619d0-6b29-4e74-9c6d-1f6f0d643565")
+		)
+		(pin "1"
+			(uuid "6e30b132-a44f-42ca-b005-efbad69227d5")
+		)
+		(pin "2"
+			(uuid "b308934e-b680-414d-93c6-58a525b6a3ec")
+		)
+		(pin "12"
+			(uuid "4079b3ad-b0ea-4249-b3fc-458f9333d9ef")
+		)
+		(pin "8"
+			(uuid "8fc02c7c-5023-499e-ae9d-fe86c6503253")
+		)
+		(pin "10"
+			(uuid "c504ddb2-c0c7-4d6f-b739-5c4afb392272")
+		)
+		(pin "6"
+			(uuid "22dde9c2-b3ad-4dd4-8738-fba2e1f0b995")
+		)
+		(pin "9"
+			(uuid "50079ede-a059-4ef9-8730-a56aae3e6526")
+		)
+		(pin "7"
+			(uuid "ff7c58a8-e711-4bb8-a5b4-5f7c83324f71")
+		)
+		(pin "3"
+			(uuid "5c817073-d2da-4956-93e2-bfcdf46c47b7")
+		)
+		(pin "13"
+			(uuid "b894d9ad-ad01-4661-a0e0-b6a4f18be7b3")
+		)
+		(pin "14"
+			(uuid "03a34302-9e30-4545-8d9c-e4d6cab897f8")
+		)
+		(pin "4"
+			(uuid "455c45b2-0662-4764-b1ae-4e13cf09cee1")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 175.26 115.57 180)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bed40e25-432f-4bf9-b98a-4db4302fc765")
+		(property "Reference" "U1"
+			(at 175.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 175.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 175.26 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 175.26 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt trigger inverter"
+			(at 175.26 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f529e0e1-d8fb-4444-b473-25abf8329a8b")
+		)
+		(pin "11"
+			(uuid "9c5619d0-6b29-4e74-9c6d-1f6f0d643565")
+		)
+		(pin "1"
+			(uuid "6e30b132-a44f-42ca-b005-efbad69227d5")
+		)
+		(pin "2"
+			(uuid "b308934e-b680-414d-93c6-58a525b6a3ec")
+		)
+		(pin "12"
+			(uuid "4079b3ad-b0ea-4249-b3fc-458f9333d9ef")
+		)
+		(pin "8"
+			(uuid "8fc02c7c-5023-499e-ae9d-fe86c6503253")
+		)
+		(pin "10"
+			(uuid "c504ddb2-c0c7-4d6f-b739-5c4afb392272")
+		)
+		(pin "6"
+			(uuid "22dde9c2-b3ad-4dd4-8738-fba2e1f0b995")
+		)
+		(pin "9"
+			(uuid "50079ede-a059-4ef9-8730-a56aae3e6526")
+		)
+		(pin "7"
+			(uuid "ff7c58a8-e711-4bb8-a5b4-5f7c83324f71")
+		)
+		(pin "3"
+			(uuid "5c817073-d2da-4956-93e2-bfcdf46c47b7")
+		)
+		(pin "13"
+			(uuid "b894d9ad-ad01-4661-a0e0-b6a4f18be7b3")
+		)
+		(pin "14"
+			(uuid "03a34302-9e30-4545-8d9c-e4d6cab897f8")
+		)
+		(pin "4"
+			(uuid "455c45b2-0662-4764-b1ae-4e13cf09cee1")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 30.48 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c38f0fff-9bf5-4844-b41f-45a4085992aa")
+		(property "Reference" "J1"
+			(at 30.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 30.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+			(at 30.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "128f2d30-4d5b-4b00-9224-8f636134678a")
+		)
+		(pin "2"
+			(uuid "02b485d4-c008-425f-ba49-c28a32cdc863")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:HEF4093B")
+		(at 102.87 60.96 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6a5148b-1f15-4cfd-a4aa-d3bf623626d2")
+		(property "Reference" "U2"
+			(at 109.22 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HEF4093B"
+			(at 109.22 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 102.87 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
+			(at 102.87 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
+			(at 102.87 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "de62cac0-6ab4-4309-9b45-09d42133f85d")
+		)
+		(pin "3"
+			(uuid "7ce37181-a165-4ce0-991c-51b403fe42b0")
+		)
+		(pin "8"
+			(uuid "5a1a66a9-bdce-4383-a5cd-fda1406c45f1")
+		)
+		(pin "9"
+			(uuid "2c81c65c-c264-46f8-a426-a559657f4314")
+		)
+		(pin "10"
+			(uuid "70c6e6fc-fa4c-4560-bc87-53e6c6bd806c")
+		)
+		(pin "5"
+			(uuid "4a51a9fe-949d-464c-a8d1-953aeb044c90")
+		)
+		(pin "11"
+			(uuid "9e75d035-b3e1-4c0e-9cf2-8da2a60b3fcd")
+		)
+		(pin "2"
+			(uuid "9bafc4b2-b1c9-4ea9-855b-ac8aab4b4e6f")
+		)
+		(pin "6"
+			(uuid "32039ad5-48f2-4afc-8f1d-d746194d4e03")
+		)
+		(pin "4"
+			(uuid "2e8ea48e-e438-4a4e-be2d-336b03ff1f69")
+		)
+		(pin "13"
+			(uuid "b70ee468-671a-4a5f-963d-3bf266471521")
+		)
+		(pin "12"
+			(uuid "4b5c6593-e105-46d9-9edd-600d530aae2d")
+		)
+		(pin "1"
+			(uuid "584201a0-b7a5-401d-a856-b8a29eadd45a")
+		)
+		(pin "14"
+			(uuid "6680345b-e4c3-4a32-8285-e865231eefd2")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U2")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 121.92 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e09e22c1-a396-41ab-98d2-0f21ab2c96e7")
+		(property "Reference" "#FLG01"
+			(at 121.92 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 121.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 121.92 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c86e5c43-124d-43f1-8439-66231334fef1")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 156.21 115.57 180)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edc5ab7d-e707-4271-9d96-9c7af59df0fc")
+		(property "Reference" "U1"
+			(at 156.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 156.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt trigger inverter"
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f529e0e1-d8fb-4444-b473-25abf8329a8b")
+		)
+		(pin "11"
+			(uuid "9c5619d0-6b29-4e74-9c6d-1f6f0d643565")
+		)
+		(pin "1"
+			(uuid "6e30b132-a44f-42ca-b005-efbad69227d5")
+		)
+		(pin "2"
+			(uuid "b308934e-b680-414d-93c6-58a525b6a3ec")
+		)
+		(pin "12"
+			(uuid "4079b3ad-b0ea-4249-b3fc-458f9333d9ef")
+		)
+		(pin "8"
+			(uuid "8fc02c7c-5023-499e-ae9d-fe86c6503253")
+		)
+		(pin "10"
+			(uuid "c504ddb2-c0c7-4d6f-b739-5c4afb392272")
+		)
+		(pin "6"
+			(uuid "22dde9c2-b3ad-4dd4-8738-fba2e1f0b995")
+		)
+		(pin "9"
+			(uuid "50079ede-a059-4ef9-8730-a56aae3e6526")
+		)
+		(pin "7"
+			(uuid "ff7c58a8-e711-4bb8-a5b4-5f7c83324f71")
+		)
+		(pin "3"
+			(uuid "5c817073-d2da-4956-93e2-bfcdf46c47b7")
+		)
+		(pin "13"
+			(uuid "b894d9ad-ad01-4661-a0e0-b6a4f18be7b3")
+		)
+		(pin "14"
+			(uuid "03a34302-9e30-4545-8d9c-e4d6cab897f8")
+		)
+		(pin "4"
+			(uuid "455c45b2-0662-4764-b1ae-4e13cf09cee1")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 135.89 115.57 180)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeb5c43f-003b-4552-8694-1104c57fdcbf")
+		(property "Reference" "U1"
+			(at 135.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 135.89 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 135.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 135.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt trigger inverter"
+			(at 135.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f529e0e1-d8fb-4444-b473-25abf8329a8b")
+		)
+		(pin "11"
+			(uuid "9c5619d0-6b29-4e74-9c6d-1f6f0d643565")
+		)
+		(pin "1"
+			(uuid "6e30b132-a44f-42ca-b005-efbad69227d5")
+		)
+		(pin "2"
+			(uuid "b308934e-b680-414d-93c6-58a525b6a3ec")
+		)
+		(pin "12"
+			(uuid "4079b3ad-b0ea-4249-b3fc-458f9333d9ef")
+		)
+		(pin "8"
+			(uuid "8fc02c7c-5023-499e-ae9d-fe86c6503253")
+		)
+		(pin "10"
+			(uuid "c504ddb2-c0c7-4d6f-b739-5c4afb392272")
+		)
+		(pin "6"
+			(uuid "22dde9c2-b3ad-4dd4-8738-fba2e1f0b995")
+		)
+		(pin "9"
+			(uuid "50079ede-a059-4ef9-8730-a56aae3e6526")
+		)
+		(pin "7"
+			(uuid "ff7c58a8-e711-4bb8-a5b4-5f7c83324f71")
+		)
+		(pin "3"
+			(uuid "5c817073-d2da-4956-93e2-bfcdf46c47b7")
+		)
+		(pin "13"
+			(uuid "b894d9ad-ad01-4661-a0e0-b6a4f18be7b3")
+		)
+		(pin "14"
+			(uuid "03a34302-9e30-4545-8d9c-e4d6cab897f8")
+		)
+		(pin "4"
+			(uuid "455c45b2-0662-4764-b1ae-4e13cf09cee1")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U1")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 119.38 60.96 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1a68917-745a-45e9-82cb-8e41043c0d3d")
+		(property "Reference" "U3"
+			(at 125.73 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "40106"
+			(at 125.73 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt trigger inverter"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "28bf24b2-d75a-41b2-9646-55d8f2c55808")
+		)
+		(pin "14"
+			(uuid "c867cfe5-99a4-419a-bf83-3a17f50ca846")
+		)
+		(pin "10"
+			(uuid "5a4b89b2-6c26-48a2-ba63-61923e95b8de")
+		)
+		(pin "5"
+			(uuid "05e9b896-f2af-42be-aaea-06e3d0bc5a50")
+		)
+		(pin "3"
+			(uuid "24b57fa4-b604-47f8-a6c2-4d89586105e6")
+		)
+		(pin "2"
+			(uuid "dec277a0-b7af-4675-b502-b44be881188f")
+		)
+		(pin "13"
+			(uuid "731e2eb0-95a9-4707-9714-e61c840c9645")
+		)
+		(pin "8"
+			(uuid "9a9f4678-caa3-4b36-8e07-32b312270fe6")
+		)
+		(pin "11"
+			(uuid "19a15f85-9595-4226-942d-9a9868adbd15")
+		)
+		(pin "7"
+			(uuid "433e35c8-eb07-457a-ac43-f79b655b6e9e")
+		)
+		(pin "1"
+			(uuid "877f9941-36fd-452d-bb18-3f69d45b893e")
+		)
+		(pin "6"
+			(uuid "6947cecd-e0fa-4901-ac1b-6ee6133d4628")
+		)
+		(pin "9"
+			(uuid "c396d6d9-c039-4ff6-ad12-e3db6792fd9f")
+		)
+		(pin "4"
+			(uuid "988253d3-1f0b-426c-9568-141391ba6f98")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U3")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:HEF4093B")
+		(at 88.9 135.89 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe75a915-ec15-4cfc-81e0-3449b93edb78")
+		(property "Reference" "U2"
+			(at 89.154 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HEF4093B"
+			(at 88.646 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf"
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 2-Input NAND Schmitt Trigger, SOIC-14"
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "de62cac0-6ab4-4309-9b45-09d42133f85d")
+		)
+		(pin "3"
+			(uuid "7ce37181-a165-4ce0-991c-51b403fe42b0")
+		)
+		(pin "8"
+			(uuid "5a1a66a9-bdce-4383-a5cd-fda1406c45f1")
+		)
+		(pin "9"
+			(uuid "2c81c65c-c264-46f8-a426-a559657f4314")
+		)
+		(pin "10"
+			(uuid "70c6e6fc-fa4c-4560-bc87-53e6c6bd806c")
+		)
+		(pin "5"
+			(uuid "4a51a9fe-949d-464c-a8d1-953aeb044c90")
+		)
+		(pin "11"
+			(uuid "9e75d035-b3e1-4c0e-9cf2-8da2a60b3fcd")
+		)
+		(pin "2"
+			(uuid "9bafc4b2-b1c9-4ea9-855b-ac8aab4b4e6f")
+		)
+		(pin "6"
+			(uuid "32039ad5-48f2-4afc-8f1d-d746194d4e03")
+		)
+		(pin "4"
+			(uuid "2e8ea48e-e438-4a4e-be2d-336b03ff1f69")
+		)
+		(pin "13"
+			(uuid "b70ee468-671a-4a5f-963d-3bf266471521")
+		)
+		(pin "12"
+			(uuid "4b5c6593-e105-46d9-9edd-600d530aae2d")
+		)
+		(pin "1"
+			(uuid "584201a0-b7a5-401d-a856-b8a29eadd45a")
+		)
+		(pin "14"
+			(uuid "6680345b-e4c3-4a32-8285-e865231eefd2")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "4xxx:40106")
+		(at 135.89 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fec0b215-133f-4712-b8bc-1cd883ca9b04")
+		(property "Reference" "U3"
+			(at 135.89 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40106"
+			(at 135.89 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
+			(at 135.89 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
+			(at 135.89 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Schmitt trigger inverter"
+			(at 135.89 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "28bf24b2-d75a-41b2-9646-55d8f2c55808")
+		)
+		(pin "14"
+			(uuid "c867cfe5-99a4-419a-bf83-3a17f50ca846")
+		)
+		(pin "10"
+			(uuid "5a4b89b2-6c26-48a2-ba63-61923e95b8de")
+		)
+		(pin "5"
+			(uuid "05e9b896-f2af-42be-aaea-06e3d0bc5a50")
+		)
+		(pin "3"
+			(uuid "24b57fa4-b604-47f8-a6c2-4d89586105e6")
+		)
+		(pin "2"
+			(uuid "dec277a0-b7af-4675-b502-b44be881188f")
+		)
+		(pin "13"
+			(uuid "731e2eb0-95a9-4707-9714-e61c840c9645")
+		)
+		(pin "8"
+			(uuid "9a9f4678-caa3-4b36-8e07-32b312270fe6")
+		)
+		(pin "11"
+			(uuid "19a15f85-9595-4226-942d-9a9868adbd15")
+		)
+		(pin "7"
+			(uuid "433e35c8-eb07-457a-ac43-f79b655b6e9e")
+		)
+		(pin "1"
+			(uuid "877f9941-36fd-452d-bb18-3f69d45b893e")
+		)
+		(pin "6"
+			(uuid "6947cecd-e0fa-4901-ac1b-6ee6133d4628")
+		)
+		(pin "9"
+			(uuid "c396d6d9-c039-4ff6-ad12-e3db6792fd9f")
+		)
+		(pin "4"
+			(uuid "988253d3-1f0b-426c-9568-141391ba6f98")
+		)
+		(instances
+			(project ""
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 111.76 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffd49f1b-2891-4c79-84ad-864b140f7a9d")
+		(property "Reference" "J2"
+			(at 114.3 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 114.3 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a2c3605-f3b6-4907-9c55-3caa2f748949")
+		)
+		(pin "2"
+			(uuid "4497c7fe-1f84-458d-84ad-02eadc6e9064")
+		)
+		(instances
+			(project "clockNoSuerpuesto"
+				(path "/4ea2eb4f-efb9-40af-93f0-42fb5eb16779"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
